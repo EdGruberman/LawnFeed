@@ -1,0 +1,10 @@
+name: LawnFeed
+version: @VERSION@
+description: Use seeds to convert Extreme Hills grass into Forest grass
+author: EdGruberman (ed@rjump.com)
+website: http://github.com/EdGruberman/LawnFeed
+main: edgruberman.bukkit.lawnfeed.Main
+permissions:
+    lawnfeed.user:
+        description: Can use seeds to turn grass greener
+        default: true
